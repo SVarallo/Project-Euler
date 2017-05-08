@@ -1,7 +1,7 @@
 /**
  * Created by svarallo on 08/05/2017.
  */
-public class Utils {
+public final class UtilsPE {
 
     public static boolean determinePrime(int num) {
         for (int i = 2; i < num; i++) {
