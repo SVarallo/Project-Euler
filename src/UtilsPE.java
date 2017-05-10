@@ -12,6 +12,13 @@ public final class UtilsPE {
         return true;
     }
 
+    public static boolean isEvenlyDivisible(int num, int divNum) {
+        if (num % divNum == 0) {
+            return true;
+        }
+        return false;
+    }
+
     public static boolean palinChecker(int palinCand) {
         String numString = Integer.toString(palinCand);
         String reverseNumString = new StringBuilder(numString).reverse().toString();
